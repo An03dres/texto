@@ -1,0 +1,92 @@
+body {
+    background-image: url(imagen/leo.jpg); /* Corregido */
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    color: #fff;
+    font-family: poppins;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 3em;
+    margin: 25px 0;
+    letter-spacing: .2rem;
+    overflow: hidden;
+}
+
+.content span:nth-child(1){
+    position: relative;
+    animation: animate 2s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(2){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.25s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(3){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(4){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.75s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(5){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(6){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.25s; 
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(7){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.5s; 
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(8){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.75s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes animate {
+    0% {
+        bottom: -100px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
